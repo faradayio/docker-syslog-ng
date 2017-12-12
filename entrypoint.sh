@@ -12,4 +12,4 @@ else
 	exit 1
 fi
 
-exec /usr/sbin/syslog-ng -f /etc/syslog-ng/syslog-ng.conf
+exec /usr/sbin/syslog-ng -F -f /etc/syslog-ng/syslog-ng.conf
